@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "crimsoncoals:block/charcoal_block"
+  }
+}

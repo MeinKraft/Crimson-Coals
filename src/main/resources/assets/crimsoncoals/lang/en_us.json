@@ -1,0 +1,9 @@
+{
+  "itemGroup.crimsoncoals":  "Crimson Coals",
+  "tip.crimsoncoals.burntime": "\u00A7eBurntime is 200 ticks, 10 seconds or 1 item",
+  "tip.crimsoncoals.blockburntime": "\u00A7eBurntime is 14400 ticks, 720 seconds or 72 items",
+
+  "item.crimsoncoals.tiny_coal": "Tiny Coal",
+  "item.crimsoncoals.tiny_charcoal": "Tiny Charcoal",
+  "block.crimsoncoals.charcoal_block": "Charcoal Block"
+}
