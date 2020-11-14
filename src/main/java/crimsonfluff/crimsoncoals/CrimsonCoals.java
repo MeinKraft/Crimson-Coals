@@ -19,7 +19,7 @@ import org.apache.logging.log4j.Logger;
 public class CrimsonCoals
 {
     public static final String MOD_ID = "crimsoncoals";
-    public static final Logger LOGGER = LogManager.getLogger("crimsoncoals");
+    //public static final Logger LOGGER = LogManager.getLogger("crimsoncoals");
     final IEventBus MOD_EVENTBUS = FMLJavaModLoadingContext.get().getModEventBus();
 
     public CrimsonCoals() {
@@ -40,12 +40,14 @@ public class CrimsonCoals
         @Override
         public ItemStack createIcon() { return new ItemStack(itemsInit.TINY_COAL.get()); }
 
-        @OnlyIn(Dist.CLIENT)
-        public boolean hasSearchBar() { return true; }
+    // removed SearchBar, it was only for testing and is since become annoying
+        //@OnlyIn(Dist.CLIENT)
+        //public boolean hasSearchBar() { return true; }
 
         //setBackgroundImageName("item_search.png") searches for ....
         //"minecraft:textures/gui/container/creative_inventory/tab_item_search.png"
         // the "tab_" is added automatically to the filename
         //
-    }.setBackgroundImageName("item_search.png");
+    };
+    //.setBackgroundImageName("item_search.png");
 }
