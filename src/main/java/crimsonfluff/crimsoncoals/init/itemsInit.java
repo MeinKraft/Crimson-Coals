@@ -28,8 +28,7 @@ public class itemsInit {
 
     // Block Items
     public static final RegistryObject<Item> CHARCOAL_BLOCK = ITEMS.register("charcoal_block",
-    () -> new BlockItem(blocksInit.CHARCOAL_BLOCK.get(), new Item.Properties().group(CrimsonCoals.TAB))
-    {
+    () -> new BlockItem(blocksInit.CHARCOAL_BLOCK.get(), new Item.Properties().group(CrimsonCoals.TAB)) {
         @Override
         public int getBurnTime(ItemStack itemStack) { return 14400; };
 

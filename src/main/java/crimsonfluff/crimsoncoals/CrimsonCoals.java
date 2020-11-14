@@ -40,14 +40,14 @@ public class CrimsonCoals
         @Override
         public ItemStack createIcon() { return new ItemStack(itemsInit.TINY_COAL.get()); }
 
-    // removed SearchBar, it was only for testing and is since become annoying
-        //@OnlyIn(Dist.CLIENT)
-        //public boolean hasSearchBar() { return true; }
+/*    // removed SearchBar, it was only for testing and is since become annoying
+        @OnlyIn(Dist.CLIENT)
+        public boolean hasSearchBar() { return true; }
 
         //setBackgroundImageName("item_search.png") searches for ....
         //"minecraft:textures/gui/container/creative_inventory/tab_item_search.png"
         // the "tab_" is added automatically to the filename
-        //
+        */
     };
     //.setBackgroundImageName("item_search.png");
 }
