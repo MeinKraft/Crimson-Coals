@@ -1,11 +1,11 @@
 package crimsonfluff.crimsoncoals.items;
 
 import crimsonfluff.crimsoncoals.CrimsonCoals;
-
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraft.world.World;
 import net.minecraftforge.api.distmarker.Dist;
@@ -22,7 +22,7 @@ public class ItemTinyCoal extends Item {
     @OnlyIn(Dist.CLIENT)
     @Override
     public void addInformation(ItemStack stack, World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn) {
-        tooltip.add((new TranslationTextComponent("tip."+CrimsonCoals.MOD_ID+".burntime")));
+        tooltip.add(new TranslationTextComponent("tip."+CrimsonCoals.MOD_ID+".burntime").mergeStyle(TextFormatting.YELLOW));
 
         super.addInformation(stack, worldIn, tooltip, flagIn);
     }
