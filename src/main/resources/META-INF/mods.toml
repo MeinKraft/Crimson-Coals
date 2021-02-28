@@ -1,23 +1,23 @@
 modLoader="javafml"
 loaderVersion="[${loader_version},)"
 license="All rights reserved"
-issueTrackerURL="http://my.issue.tracker/" #optional
+issueTrackerURL="https://github.com/MeinKraft/Crimson-Coals/issues" #optional
 
 [[mods]]
 modId="crimsoncoals"
 version="${version}"
 displayName="Crimson Coals"
-displayURL="http://crimsonfluff.com/"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/crimson-coals"
 authors="§4Crimson_Fluff"
 logoFile="logo.png" #optional
 credits="\n§bRaziel23x§r for casually giving me the push I needed !\n§bTechnovision§r for his awesome modding YouTube series\n§bTurtyWurty§r for his awesome modding YouTube series" #optional
-description=''' This is my first attempt at basic Minecraft 1.16.4 modding  '''
+description=''' "From acorns mighty oaks... get cut down for firewood" '''
 
 [[dependencies.crimsoncoals]]
     modId="minecraft"
     mandatory=true
     versionRange="[${mc_version}]"
-  side="BOTH"
+    side="BOTH"
 [[dependencies.crimsoncoals]]
     modId="forge"
     mandatory=true
